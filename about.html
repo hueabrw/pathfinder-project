@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+  <meta name="description" content="Pathfinder">
+  <meta name="keywords" content="Pathfinder,CRM,LLC">
+  <meta name="author" content="Our Group">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <style>
             #container{
                 display: flex;
@@ -18,7 +24,7 @@
 
             #body{
                 width: 100%;
-                height: 100px;
+                height: 557pt;
                 border: 2px solid blue;
                 background-color: red;
             }
@@ -29,9 +35,18 @@
                 border: 2px solid red;
             }
             #menu{
+                display: flex;
                 border: 2px solid violet;
                 width: 100%;
                 height: 50px;
+                text-align: center;
+                flex-direction: row;
+                justify-content: center;
+                
+            }
+
+            #menu p{
+                padding-left: 30px;
             }
             
         </style>
@@ -42,7 +57,11 @@
             <header>
             <div id="header"></div>
         </header>
-        <div id="menu"></div>
+        <div id="menu">
+            <p>HOME</p>
+            <p>CONTACT</p>
+            <p>ABOUT</p>
+        </div>
         <div id="body"></div>
         <footer id="footer"></footer>
         </div>

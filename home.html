@@ -1,9 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Pathfinder CRM landing page">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="Our Team">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            body{
+                background-color: #C70000;
+                color: white;
+                font-size: 18px;
+            }
+            #container{
+                margin: auto;
+            }
+            #flex_container{
+                display: flex;
+                margin-left: 10%;
+                margin-right: 10%;
+                flex-wrap: wrap;
+            }
+            .flex_item{
+                flex: 1 0 35%;
+                padding-bottom: 10px;
+                padding-left: 10%;
+                max-width: 35%;
+            }
+            
+            h2{
+                text-align: center;
+            }
+            #map{
+                background-image: url("img/coast_map.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                color: black;
+                justify-content: center;
+                text-align: center;
+                margin-top: 0;
+            }
+            
+        </style>
 
     </head>
     <body>
-        
+        <header>
+
+        </header>
+        <div id="container">
+            <div id="map">                
+                <h1>SINCE 1978 </h1>
+                <h1>ROBERT C. VOGEL</h1> 
+                <h1>PRINCIPAL</h1>
+                <p>Cultural Resource Management Heritage Preservarion</p>
+                <div id="button"><a href="contact.html">CONTACT US</a></div>
+            </div>
+            <h2>SERVICES</h2>
+            <div id="flex_container">
+                <div class="flex_item"><img src="img/Dig.jpg" alt="Digsite"></div>
+                <div class="flex_item">
+                    <h3>Archaeology Support Services</h3>
+                    <ul>
+                    <li>Archival research (English, Spanish, French)</li>
+                    <li>Architectural and landscape surveys</li>
+                    <li>Literature reviews & records searches</li>
+                    <li>Industrial Archaeology</li>
+                    <li>Ethnohistory</li>
+                    </ul>
+                </div>
+                <div class="flex_item">
+                    <h3>Historic Preservation Services</h3>
+                    <ul>
+                        <li>History; research& writing, context studies, site documentation, digital mapping & graphics.</li>
+                        <li>Architectural History; reconnaissance & intensive surveys, Hisoric American Building Survey (HABS), Historic American Engineering Record (HAER), Historic structure reports.</li>
+                        <li>Historic Landscapes: reconnaissance & intensive surveys, Historic American Landscape Survey (HALS), landscape archaeology, treatment plans.</li>
+                        <li>Preservation Planning; National Regisster evaluation/determinations of eligibility, National Register & local landmark registration forms, Comprehensive plans, preservation ordinances & codes, Preservation commission staffing.</li>
+                    </ul>
+                </div>
+                <div class="flex_item"><img src="img/barn.jpg" alt="Clermont Building"></div>
+                <div class="flex_item"><img src="img/LimeKiln.jpg" alt="Lime Kiln"></div>
+                <div class="flex_item">
+                    <h3>In Addition</h3>
+                    <ul>
+                        <li>Historic site interpretation</li>
+                        <li>Public education</li>
+                        <li>Publications</li>
+                        <li>Board and commission training</li>
+                        <li>Public meeting facilitation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>    
+        <footer>
+
+        </footer>
     </body>
 </html>

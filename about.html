@@ -1,9 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="About us page for Pathfinder CRM">
+        <meta name="keywords" content="Pathfinder,CRM">
+        <meta name="author" content="Team 2">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./pathfinder.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
+        <style>
+        .header-nav{
+            background-color: rgba(199,0,0,0.9);
+        }
+        .head-container{
+            padding: 20px;
+            margin: 0px 50px 0px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #logo{
+            text-decoration: none; 
+            color: #FFFFFF;
+            font-size: 34px;
+            font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+        }
 
+        #phone{
+            color: #FFFFFF;
+            font-size: 25px;
+            font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+        }
+
+        .navmenu-container{
+            background-color: #FFFFFF;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .menu-item{
+            text-decoration: none;
+            font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+            padding: 10px;
+            color: black;
+        }
+        </style>
     </head>
     <body>
-        
+        <header>
+            <nav class="header-nav">
+                <div class="head-container">
+                    <a href="./home.html" id="logo">PATHFINDER CRM, LLC</a>
+                    <a id="phone">(507) 498-3810</a>
+                </div>
+                <div class="navmenu-container">
+                    <ul>
+                        <li><a class="menu-item" href="./home.html">HOME</a></li>
+                        <li><a class="menu-item" href="./contact.html">CONTACT US</a></li>
+                        <li><a class="menu-item" href="about.html">ABOUT US</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
     </body>
 </html>
